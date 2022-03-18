@@ -58,7 +58,7 @@ ID3D10RenderTargetView* pRenderTargetView = NULL;
 int BackBufferWidth = 0;
 int BackBufferHeight = 0;
 
-#define TEXTURE_PATH_BRICK L"brick.png"
+#define TEXTURE_PATH_BRICK L"billiard.png"
 #define BRICK_START_X 8.0f
 #define BRICK_START_Y 200.0f
 
@@ -316,15 +316,15 @@ void Update(DWORD dt)
 
 		brick_vx = -brick_vx;
 
-		//	//Why not having these logics would make the brick disappear sometimes?  
-		////	if (brick_x <= 0)
-		////	{
-		////		brick_x = 0;
-		////	}
-		////	else if (brick_x >= BackBufferWidth - BRICK_WIDTH)
-		////	{
-		////		brick_x = BackBufferWidth - BRICK_WIDTH;
-		////	}
+			///*Why not having these logics would make the brick disappear sometimes?  
+			//if (brick_x <= 0)
+			//{
+			//	brick_x = 0;
+			//}
+			//else if (brick_x >= BackBufferWidth - BRICK_WIDTH)
+			//{
+			//	brick_x = BackBufferWidth - BRICK_WIDTH;
+			//}*/
 	}
 }
 
